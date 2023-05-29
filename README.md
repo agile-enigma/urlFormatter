@@ -24,10 +24,9 @@ If you prefer to use this tool as a Jupyter Notebook you can find that at: https
 # Installation
 Clone this repository into the folder where Python third-party packages 
 are stored on your system. If in a virtual environment this can be found 
-by typing:
+by typing the following:
 
->>> import site
->>> site.getsitepackages()
+python3 -c 'import site; print(site.getsitepackages())'
 
 # Usage
 This tool can either be run from the command line as a script, or imported as a module. 
